@@ -1,13 +1,10 @@
-using System;
-using System.Drawing;
 using System.Threading.Tasks;
 using Android.Content;
-using Newtonsoft.Json.Linq;
 using Xamarin.Auth;
 
 namespace Auth0.SDK
 {
-	public partial class Auth0Client
+    public partial class Auth0Client
 	{
 		/// <summary>
 		/// Log a user into an Auth0 application given a connection name.

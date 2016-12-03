@@ -1,11 +1,9 @@
-using System;
 using System.Collections.Generic;
-using System.Text;
 using Newtonsoft.Json.Linq;
 
 namespace Auth0.SDK
 {
-	public class Auth0User
+    public class Auth0User
 	{
 		public Auth0User()
 		{

@@ -1,7 +1,5 @@
-using System;
 using System.Drawing;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Linq;
 using Xamarin.Auth;
 
 #if __UNIFIED__
@@ -12,7 +10,7 @@ using MonoTouch.UIKit;
 
 namespace Auth0.SDK
 {
-	public partial class Auth0Client
+    public partial class Auth0Client
 	{
 		/// <summary>
 		/// Log a user into an Auth0 application given a connection name.

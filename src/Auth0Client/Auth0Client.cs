@@ -1,19 +1,16 @@
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Xamarin.Auth;
-using System.Security.Policy;
 
 namespace Auth0.SDK
 {
-	/// <summary>
-	/// A simple client to Authenticate Users with Auth0.
-	/// </summary>
-	public partial class Auth0Client
+    /// <summary>
+    /// A simple client to Authenticate Users with Auth0.
+    /// </summary>
+    public partial class Auth0Client
 	{
 		protected string Domain { get; set; }
 		protected string ClientId { get; set; }
