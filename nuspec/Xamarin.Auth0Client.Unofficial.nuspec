@@ -41,8 +41,6 @@
         <!-- iOS -->
         <file src="..\src\Auth0Client.iOS\bin\unified\Release\Auth0Client.iOS.dll" target="lib\MonoTouch10" />
         <file src="..\src\Auth0Client.iOS\bin\unified\Release\Auth0Client.iOS.XML" target="lib\MonoTouch10" />
-        <file src="..\src\Auth0Client.iOS\bin\unified\Release\Xamarin.Auth.iOS.dll" target="lib\MonoTouch10" />
-        <file src="..\src\Auth0Client.iOS\bin\unified\Release\Xamarin.Auth.iOS.XML" target="lib\MonoTouch10" />
     </files>
 </package>
 
