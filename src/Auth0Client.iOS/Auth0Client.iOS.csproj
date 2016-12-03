@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>False</ConsolePause>
     <DefineConstants>PLATFORM_IOS</DefineConstants>
+    <DocumentationFile>bin\unified\Release\Auth0Client.iOS.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PCLCrypto, Version=0.5.0.0, Culture=neutral, PublicKeyToken=d4421c8a4786956c, processorArchitecture=MSIL">

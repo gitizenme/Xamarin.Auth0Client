@@ -9,7 +9,7 @@ Set-Location -Path $locationNuspec
 "Packaging to nuget..."
 "Build folder : " + $location
 
-$strPath = $location + '\src\Auth0Client.Android\bin\Release\Auth0Client.Android.dll'
+$strPath = $location + '\src\Auth0Client.iOS\bin\unified\Release\Auth0Client.iOS.dll'
 
 $VersionInfos = [System.Diagnostics.FileVersionInfo]::GetVersionInfo($strPath)
 $ProductVersion = $VersionInfos.ProductVersion
