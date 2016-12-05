@@ -1,6 +1,8 @@
 This library is a fork of https://github.com/auth0/Xamarin.Auth0Client.
 The goal is to update components and publish result to nuget for all.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/4pnvmyhcpag1alj6?svg=true)](https://ci.appveyor.com/project/mathieumack/xamarin-auth0client)
+
 # Xamarin.Auth0Client
 A cross-platform API for authenticating users with the [Auth0 platform](http://auth0.com).
 * This component builds on top of the [Xamarin.Auth](https://github.com/xamarin/Xamarin.Auth) framework.
