@@ -14,6 +14,7 @@
         <dependencies>
           <group targetFramework="MonoAndroid10">
             <!-- Always include regardless of target framework -->
+            <dependency id="Validation" version="2.3.7" />
             <dependency id="Xamarin.Auth" version="1.3.1.1" />
         </group>
           <group targetFramework="MonoTouch10">
@@ -39,8 +40,8 @@
         <file src="..\src\Auth0Client.Android\bin\Release\Auth0Client.Android.XML" target="lib\MonoAndroid10" />
         
         <!-- iOS -->
-        <file src="..\src\Auth0Client.iOS\bin\unified\Release\Auth0Client.iOS.dll" target="lib\MonoTouch10" />
-        <file src="..\src\Auth0Client.iOS\bin\unified\Release\Auth0Client.iOS.XML" target="lib\MonoTouch10" />
+        <file src="..\src\Auth0Client.iOS\bin\unified\Release\Auth0Client.iOS.dll" target="lib\xamarinios10" />
+        <file src="..\src\Auth0Client.iOS\bin\unified\Release\Auth0Client.iOS.XML" target="lib\xamarinios10" />
     </files>
 </package>
 
