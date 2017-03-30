@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
  <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>Xamarin.Auth0Client.Xamarin.Auth.1.3.2.7</id>
+        <id>Xamarin.Auth0Client.Unofficial.X</id>
         <version>{BuildNumberVersion}</version>
-        <title>Xamarin.Auth0Client package (Xamarin.Auth-1.3.2.7)</title>
+        <title>Xamarin.Auth0Client package (Unofficial.X)</title>
         <authors>gitizenme</authors>
         <owners>gitizenme</owners>
-        <licenseUrl>https://github.com/mathieumack/Xamarin.Auth0Client</licenseUrl>
-        <projectUrl>https://github.com/mathieumack/Xamarin.Auth0Client</projectUrl>
+        <licenseUrl>https://github.com/gitizenme/Xamarin.Auth0Client</licenseUrl>
+        <projectUrl>https://github.com/gitizenme/Xamarin.Auth0Client</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Unofficial package of the Xamarin.Auth0Client client</description>
         <tags>Auth0 OAuth Xamarin</tags>

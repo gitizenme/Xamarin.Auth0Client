@@ -28,4 +28,4 @@ Set-Content $nuSpecFile
 $apiKey = $env:NuGetApiKey
 	
 "Publish packages ..."	
-.\NuGet push Xamarin.Auth0Client.Unofficial.$ProductVersion.nupkg -Source https://www.nuget.org/api/v2/package -ApiKey $apiKey
+.\NuGet push Xamarin.Auth0Client.Unofficial.X.$ProductVersion.nupkg -Source https://www.nuget.org/api/v2/package -ApiKey $apiKey
