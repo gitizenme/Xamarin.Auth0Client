@@ -65,7 +65,7 @@ namespace Auth0.SDK
 				tcs.TrySetResult (this.CurrentUser);
 			};
 
-			Intent intent = (Android.Content.Intent)auth.GetUI(context);
+			Intent intent = (Intent)auth.GetUI((Android.App.Activity)context);
 			context.StartActivity (intent);
 
 			return await tcs.Task;

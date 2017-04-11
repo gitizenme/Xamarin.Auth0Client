@@ -14,15 +14,13 @@
         <dependencies>
           <group targetFramework="MonoAndroid10">
             <!-- Always include regardless of target framework -->
-            <dependency id="Newtonsoft.Json" version="10.0.1" />
-            <dependency id="Validation" version="2.3.7" />
-            <dependency id="Xamarin.Auth" version="1.3.2.7" />
+            <dependency id="Validation" version="2.4.15" />
+            <dependency id="Xamarin.Auth" version="1.4.1" />
         </group>
           <group targetFramework="xamarinios10">
             <!-- Always include regardless of target framework -->
-            <dependency id="Newtonsoft.Json" version="10.0.1" />
-            <dependency id="Validation" version="2.3.7" />
-            <dependency id="Xamarin.Auth" version="1.3.2.7" />
+            <dependency id="Validation" version="2.4.15" />
+            <dependency id="Xamarin.Auth" version="1.4.1" />
         </group>
         </dependencies>  
     </metadata>

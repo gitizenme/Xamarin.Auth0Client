@@ -37,17 +37,52 @@ namespace Auth0.SDK
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f040000
+			public static int webview = 2130968576;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f020000
+			public static int activity_webview = 2130837504;
+			
+			static Layout()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Layout()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f020001
-			public static int ApplicationName = 2130837505;
+			// aapt resource value: 0x7f030002
+			public static int ApplicationName = 2130903042;
 			
-			// aapt resource value: 0x7f020000
-			public static int Hello = 2130837504;
+			// aapt resource value: 0x7f030001
+			public static int Hello = 2130903041;
 			
-			// aapt resource value: 0x7f020002
-			public static int library_name = 2130837506;
+			// aapt resource value: 0x7f030003
+			public static int library_name = 2130903043;
+			
+			// aapt resource value: 0x7f030000
+			public static int title_activity_webview = 2130903040;
 			
 			static String()
 			{

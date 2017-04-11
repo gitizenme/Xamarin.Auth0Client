@@ -117,7 +117,7 @@ namespace Auth0.SDK
 			var auth = await this.GetAuthenticator (connection, scope, title);
 
 
-			UIViewController c = (UIKit.UIViewController)auth.GetUI();
+			UIViewController c = (UIViewController)auth.GetUI();
 
 			UIViewController controller = null;
 			UIPopoverController popover = null;
