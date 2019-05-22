@@ -1,5 +1,6 @@
 This library is a fork of https://github.com/auth0/Xamarin.Auth0Client.
-The goal is to update components and publish result to nuget for all.
+The goal is to update components and publish result to nuget for all. 
+Here is a prelease: https://www.nuget.org/packages/Xamarin.Auth0Client.Unofficial.X/1.2.14-alpha
 
 [![Build status](https://ci.appveyor.com/api/projects/status/yjyoa40mwejjfjhx?svg=true)](https://ci.appveyor.com/project/gitizenme/xamarin-auth0client)
 
